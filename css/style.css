@@ -39,6 +39,15 @@ a:hover {
   overflow: hidden;
   margin-bottom: 20px;
 }
+#content h1 {
+  font-size: 150%;
+}
+#content p {
+  text-indent: 1em;
+}
+#content ul {
+  text-indent: 2em;
+}
 
 /*****HEADER*****/
 header{
