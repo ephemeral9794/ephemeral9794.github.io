@@ -48,6 +48,12 @@ a:hover {
 #content ul {
   text-indent: 2em;
 }
+#content a.link {
+  font-size: 120%
+}
+#content li {
+  float: left;
+}
 
 /*****HEADER*****/
 header{
