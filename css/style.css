@@ -12,7 +12,7 @@ outline:none;
 border-style:none;
 }
 
-a{
+/*a{
     color:blue;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -29,37 +29,95 @@ a:hover {
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
+}*/
+
+/*****frame*****/
+.frame {
+  width:900px;
+  margin:0 auto 0 auto;
+}
+.inner {
+	width:800px;
+	margin-left: 50px;
 }
 
-/*****#content******/
-#content {
-  display: block;
-  width: 60%;
-  margin-left: 20%;
-  overflow: hidden;
-  margin-bottom: 20px;
+/**menu**/
+.menu {
+	width:100px;
+	float:left;
+	padding: 5px;
+	background-color: #EFEFEF;
+	font-size: 12px;
+	line-height: 150%;
+	border: 4px solid #555555;
+	/*margin-left: 20%*/
 }
-#content h1 {
-  font-size: 150%;
+.menu_title {
+  background-color: #333333;
+  margin:0 0 10px 0;
+  padding: 3px;
+  font-size: 12px;
+  line-height: 130%;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
 }
-#content p {
-  text-indent: 1em;
+
+/*****content******/
+.content {
+  /*width: 60%;*/
+  width: 650px;
+  float:left;
+  padding: 5px;
+  background-color: #FFFFFF;
+  /*margin-left: 26%;*/
+  border: 0px solid #00CCFF;
+  font-size: 12px;
+  line-height: 150%;
 }
-#content ul {
-  text-indent: 2em;
+.coloring {
+	color:#5881c1;
+	padding:0px;
 }
-#content a.link {
-  font-size: 120%
+
+.headline {
+	font-size: 150%;
+	margin:0px 0px 0px 25px;
+	padding:3px 10px;
+	color:black;
+	font-weight:bold;
+	border-style:solid;
+	border-color:#5881c1;
+	border-width:0px 0px 2px 0px;
+	width: 25%;
 }
-#content li {
-  float: left;
+.text {
+	width:100%;
+    margin:-5px 10px 20px 43px;
+    padding:15px 20px;
+    border-style:solid;
+    border-color:#5881c1;
+    border-width:0px 0px 0px 2px;
+    color:black;
+    line-break:strict;
+    line-height:180%;
+}
+
+.list {
+    list-style:square;
+    margin:5px 5px;
+}
+.item {
+    list-style:square;
+    padding: 0;
+    margin:5px 20px;
 }
 
 /*****HEADER*****/
 header{
     display: block;
     width:60%;
-    margin-left: 20%;
+    /*margin-left: 20%;*/
     overflow: hidden;
 }
 header h1{
@@ -137,13 +195,13 @@ nav li:hover{
 /*****ARTICLE*****/
 article{
     display: block;
-    width: 60%;
-    margin-left: 20%;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 0%;
+    /*margin-bottom: 20px;*/
     overflow: hidden;
 }
 section{
-    width: 41%;
+    width: 75%;
     padding: 2.5%;
     margin: 1.5%;
     background-color: #f9f9f9;
@@ -193,7 +251,7 @@ section .btn{
     letter-spacing: 5px;
     text-decoration: none;
     overflow: hidden;
-    float: right;
+    float: left;
 }
 section .btn:hover{
     background-color: #fff;
@@ -208,12 +266,13 @@ section .btn:hover{
 footer{
     font-size: 80%;
     width: 100%;
+    float:left;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #313131;
 }
 footer address{
-    color: #fff;
+    color: #ffffff;
     letter-spacing: 5px;
 }
